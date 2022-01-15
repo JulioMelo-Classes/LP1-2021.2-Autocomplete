@@ -66,7 +66,11 @@ Dois arquivos de dadatabase podem ser encontrados no diretório [data](data).
 
 # Implementação
 
-Fique à vontade para modelar o programa como você achar que deve. No entanto, crie ao menos uma classe!
+Fique à vontade para modelar o programa como você achar que deve. No entanto, faça ao menos 3 classes:
+
+1. Uma classe deve ficar à cargo da Interface com o usuário, especialmente ler a entrada e escrever as possíveis saídas.
+2. Uma classe deve ficar à cargo de processar e guardar as informações do banco de dados.
+3. Uma classe deve ficar à cargo de processar e guardar o resultado de uma requisição do usuário, ou seja, ela deve conter o conjunto de palavras que resultam da requisição, bem como outras informações que voce ache relevante.
 
 Como, neste caso, estamos interessados também na eficiencia da solução, os passos recomendados para resolver o problema são:
 
@@ -93,7 +97,8 @@ Note que o programa não deve ser **case sensitive**. Ou seja, não deve fazer d
 The description of this programming assignment was taken from [Computer Sciecne at Pricenton University](http://introcs.cs.princeton.edu/java/assignments/autocomplete.html).
 
 **Adaptation: Selan R. Santos, [selan@dimap.ufrn.br](mailto:selan@dimap.ufrn.br)**
-**Translation: Julio Melo, [julio.melo@imd.ufrn.br](mailto:julio.melo@imd.ufrn.br)**
+
+**Translation to PT-Br and Adaptation: Julio Melo, [julio.melo@imd.ufrn.br](mailto:julio.melo@imd.ufrn.br)**
 
 &copy; DIMAp/UFRN 2021.
 &copy; IMD/UFRN 2021.
