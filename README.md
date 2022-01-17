@@ -80,6 +80,8 @@ Como, neste caso, estamos interessados também na eficiencia da solução, os pa
 4. Ordene o conjunto criado pelo peso
 5. Apresente o resultado para o usuário e volte ao passo 2.
 
+Outro ponto à observar é o uso de referencias ao invés de cópias quando tratamos tipos não básicos. C++ é uma linguagem muito eficiente, mas que pode perder desempenho a medida que começamos a usar cópias ao invés de referencias, especialmente quando os dados processados são escalares (vetores, matrizes, etc). Neste trabalho, quando for processar objetos que são compostos por arrays, seja em parâmetros dos métodos/funções ou nos retornos destes, tente usar referencias ao invés de cópias.
+
 # Saída
 
 Seguem algumas saídas, cada uma com base em uma base de dados diferente. O primeiro exemplo executa usando a base  `cities.txt`. O usuário entra com __"São P"__.
