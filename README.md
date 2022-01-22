@@ -1,13 +1,13 @@
-# Programming Assignment: Autocomplete System
+# Atividade: Sistema de Autocomplete
 
-### Table of Contents
-1. [Introdução](#introduction)
-2. [O problema](#the-problem)
-3. [Interface](#interface)
-4. [Implementação](#implementation)
-5. [Saída](#output)
+### Sumário
+1. [Introdução](#Introdução)
+2. [O problema](#O-problema)
+3. [Interface](#Interface)
+4. [Implementação](#Implementação)
+5. [Saída](#Saída)
 
-# Introduction
+# Introdução
 
 Autocomplete é uma ferramenta comum em aplicações modernas. Enquanto o usuário digita, o programa prevê o quê o usuário está tentando digitar (usualmente uma palavra ou frase).
 
